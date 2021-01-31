@@ -3,6 +3,8 @@ Deep Learning for Human Language Processing (CommE5054) in NTU 2020 Spring
 
 Course Website: http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html
 
+## Homework
+
 HW1: Speech Recognition ([Report](https://github.com/joshchang1112/DLHLP-2020SPRING/blob/main/hw1/report.pdf)) ([Kaggle Website](https://www.kaggle.com/c/dlhlp2020spring-asr))
 
 HW2: Voice Conversion ([Report](https://github.com/joshchang1112/DLHLP-2020SPRING/blob/main/hw2/report.pdf))
