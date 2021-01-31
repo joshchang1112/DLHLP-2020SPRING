@@ -15,7 +15,7 @@ HW4-1: BERT basic ([Report](https://github.com/joshchang1112/DLHLP-2020SPRING/bl
 
 HW4-2: BERT Embedding ([Report](https://github.com/joshchang1112/DLHLP-2020SPRING/blob/main/hw4-2/report.pdf))
 
-HW4-3: BERT for fine-tuned QA tasks (3/40 in Kaggle Competitions) ([Report](https://github.com/joshchang1112/DLHLP-2020SPRING/blob/main/hw4-3/report.pdf)) ([Kaggle  Website](https://www.kaggle.com/c/dlhlp2020-spring-hw4-3))
+HW4-3: BERT for fine-tuned QA tasks (**Top3 accuracy in class!**) ([Report](https://github.com/joshchang1112/DLHLP-2020SPRING/blob/main/hw4-3/report.pdf)) ([Kaggle  Website](https://www.kaggle.com/c/dlhlp2020-spring-hw4-3))
 
 HW5: Text Style Transfer ([Report](https://github.com/joshchang1112/DLHLP-2020SPRING/blob/main/hw5/report.pdf))
 
