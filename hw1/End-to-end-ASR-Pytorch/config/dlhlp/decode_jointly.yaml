@@ -1,0 +1,19 @@
+# Most of the parameters will be imported from the training config
+src:
+  ckpt: './End-to-end-ASR-Pytorch/ckpt/asr_dlhlp_jointly_sd0/best_att.pth'
+  config: './End-to-end-ASR-Pytorch/config/dlhlp/asr_dlhlp_jointly.yaml'
+data:
+  corpus:
+    name:  'Dlhlp'
+    dev_split: ['dev']
+    test_split: ['test']
+decode:
+  beam_size: 10
+  min_len_ratio: 0.01
+  max_len_ratio: 0.30
+  lm_path: './End-to-end-ASR-Pytorch/ckpt/lm_dlhlp_sd0/best_ppx.pth'
+  lm_config: './End-to-end-ASR-Pytorch/config/dlhlp/lm_dlhlp.yaml'
+  lm_weight: 0.5
+  ctc_weight: 0.25
+hparas:
+  optimizer: 'Adadelta'

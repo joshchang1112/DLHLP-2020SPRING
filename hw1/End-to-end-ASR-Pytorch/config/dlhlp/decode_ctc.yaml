@@ -1,0 +1,19 @@
+# Most of the parameters will be imported from the training config
+src:
+  ckpt: 'ckpt/asr_dlhlp_ctc_sd0/best_ctc.pth'
+  config: 'config/dlhlp/asr_dlhlp_jointly.yaml'
+data:
+  corpus:
+    name:  'Dlhlp'
+    dev_split: ['dev']
+    test_split: ['test']
+decode:
+  beam_size: 2
+  min_len_ratio: 0.01
+  max_len_ratio: 0.30
+  lm_path: 
+  lm_config: 
+  lm_weight: 0.0
+  ctc_weight: 1.0
+hparas:
+  optimizer: 'Adadelta'
